@@ -1,0 +1,59 @@
+body{scroll-behavior: smooth;
+height: 120vh;
+/* width: 200vw; */
+}
+.calculator {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main {
+    background: whitesmoke;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+
+.input .form-input {
+    width: 85%;
+    box-shadow: 0px 0px 5px 1px gray inset;
+    height: 45px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    text-align: end;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    background-image: url();
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+.aboutdeveloper{
+    text-align: center;
+}
+.aboutdeveloper a{
+    text-decoration: none;
+    font-size: large;
+    color: darkblue;
+}

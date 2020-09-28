@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munshi-Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="./icon.PNG">
+</head>
+
+<body>
+    <div class="calculator">
+    <div class="main">
+        <div class="input">
+            <input id="input" type="text" class="form-input" value="0" readonly>
+        </div>
+        <div class="col">
+            <div class="button">
+                <input type="button" onclick="allclr()" id="allalean" style=" background:rgb(255, 0, 149); color: white;" value="AC">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="allclr()" id="clean" style="color: white;  background: rgb(255, 0, 149);" value="C">
+            </div>
+
+
+            <div class="button">
+                <input type="button" onclick="if(document.getElementById('input').value ==0){dis('%')}else{dis('%')}" id="moduls" style="color: white;  background:rgb(255, 0, 149);" value="%">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="if(document.getElementById('input').value ==0){dis('/')} else{dis('/')}" id="divided" style="color: white;  background: rgb(255, 0, 149);" value="/">
+            </div>
+
+
+
+        </div>
+
+        <div class="col">
+            <div class="input">
+                <input type="button" onclick="dis('7')" id="seven" value="7">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('8')" id="eight" value="8">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('9')" id="nine" value="9">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="if(document.getElementById('input').value ==0){dis('0')}else{dis('*')}" id="multiplie" style="color: white;  background:rgb(255, 0, 149);" value="*">
+            </div>
+
+        </div>
+
+        <div class="col">
+
+            <div class="button">
+                <input type="button" onclick="dis('4')" id="four" value="4">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('5')" id="five" value="5">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('6')" id="six" value="6">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="if(document.getElementById('input').value ==0){dis('-')}else{dis('-')}" id="subtract" style="color: white; background:rgb(255, 0, 149);" value="-">
+            </div>
+
+        </div>
+
+        <div class="col">
+
+            <div class="button">
+                <input type="button" onclick="dis('1')" id="one" value="1">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('2')" id="two" value="2">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('3')" id="three" value="3">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="if(document.getElementById('input').value ==0){dis('+')}else{dis('+')}" id="sum" style="color: white; background: rgb(255, 0, 149);" value="+">
+            </div>
+
+        </div>
+
+        <div class="col">
+
+            <div class="button">
+                <input type="button" onclick="dis('0')" id="zero" value="0">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('.')" id="point" value=".">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="dis('E')" id="e" value="E">
+            </div>
+
+            <div class="button">
+                <input type="button" onclick="solve()" id="result" style="color: rgba(228, 207, 207, 0.911); background: rgb(100, 128, 0);" value="=">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="aboutdeveloper"><a href="https://munshicomputer.github.io/About-me/">About Developer</a></div>
+
+
+
+    <script src="JS/Main.js"></script>
+
+</body>
+
+</html>
